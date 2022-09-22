@@ -9,7 +9,7 @@ def generate_launch_description():
     return LaunchDescription([
         IncludeLaunchDescription(
             PythonLaunchDescriptionSource(
-                [ThisLaunchFileDir(), '/mm_publisher.launch.py']),
+                [ThisLaunchFileDir(), '/mm.state.publisher.py']),
         ),
 
         Node(
